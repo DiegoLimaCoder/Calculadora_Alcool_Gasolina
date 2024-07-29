@@ -44,3 +44,32 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+.result {
+  background-color: #00b63e;
+  width: 100%;
+  max-width: 420px;
+  padding: 20px 28px;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+  transition: transform 0.8s;
+}
+
+.result:hover {
+  transform: scale(1.1);
+}
+
+.result-title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.result span {
+  margin-bottom: 8px;
+  color: #fff;
+}
