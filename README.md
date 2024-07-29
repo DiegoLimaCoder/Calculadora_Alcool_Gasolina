@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# Calculadora de Gasolina X Álcool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>Este projeto é uma calculadora simples para ajudar a determinar se é mais vantajoso abastecer com álcool ou gasolina. Desenvolvido usando React e TypeScript. </p>
 
-Currently, two official plugins are available:
+## Demo do projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="Projeto.png" alt="">
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Cálculo simples**: Com base nos preços do álcool e da gasolina, a calculadora determina qual combustível é mais vantajoso.
+- **Interface intuitiva**: Interface de usuário simples e fácil de usar.
+- **Feedback imediato**: Após inserir os valores, o resultado é exibido instantaneamente.
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias Utilizadas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **React**: Biblioteca JavaScript para criar interfaces de usuário.
+- **TypeScript**: Um superconjunto de JavaScript que adiciona tipos estáticos.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Uso
+Insira o preço do álcool no campo correspondente.
+Insira o preço da gasolina no campo correspondente.
+A calculadora irá exibir qual combustível é mais vantajoso usar, baseado na relação de preços.
